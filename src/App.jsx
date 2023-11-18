@@ -1,5 +1,5 @@
 import BiologicalAge from "./BiologicalAge";
-
+import hilogo from "../public/hilogo.png"
 function App() {
   return (
     <>
@@ -9,7 +9,7 @@ function App() {
         </div>
         <div className="absolute top-0 w-full">
           <div className="my-4 flex gap-4 items-center justify-center">
-          <img src="/hilogo.png" className="w-10 h-14 hidden sm:flex"/>
+          <img src={hilogo} className="w-10 h-14 hidden sm:flex"/>
             <h1 className="text-6xl font-semibold orange_gradient text-center sm:text-start">
               Health Intelligence
             </h1>

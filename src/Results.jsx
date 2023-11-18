@@ -7,6 +7,7 @@ import {
   DialogContentText,
   DialogTitle,
 } from "@mui/material";
+import hilogo from "../public/hilogo.png"
 
 function Results(props) {
   return (
@@ -21,7 +22,7 @@ function Results(props) {
         <DialogTitle
           id="alert-dialog-title"
           className="flex gap-2 justify-center orange_gradient"
-        >  <img src="/hilogo.png" className="w-6 h-8" />
+        >  <img src={hilogo}className="w-6 h-8" />
           <div className="font-semibold text-xl">Health Intelligence</div>
         </DialogTitle>
         <DialogContent className="!pb-0">
