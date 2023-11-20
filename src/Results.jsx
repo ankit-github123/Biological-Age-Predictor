@@ -35,7 +35,7 @@ function Results(props) {
           <div className="flex flex-col items-center gap-3 mt-3">
             <div>Chronological Age: <span className="font-bold">{parseFloat(props.data.realage).toFixed(2)}</span></div>
             <div>Biological Age: <span className="font-bold">{parseFloat(props.data.bioage).toFixed(2)}</span></div>
-            <div className="">Biological Age vs. Chronological: <span className="font-bold border-b-2 border-black">{(parseFloat(props.data.realage)-parseFloat(props.data.bioage)).toFixed(2)}</span></div>
+            <div className="">Biological Age vs. Chronological: <span className="font-bold border-b-2 border-black">{(parseFloat(props.data.bioage)-parseFloat(props.data.realage)).toFixed(2)}</span></div>
           </div>
           <DialogContentText className="">
             <div className="text-[8px] mt-3 text-justify">
