@@ -38,7 +38,7 @@ const BiologicalAge = () => {
     <div>
    <form
    onSubmit={handleSubmit}
-   className='mt-10 w-full max-w-2xl flex flex-col gap-5 glass-container !py-10'
+   className='mt-10 w-full max-w-2xl flex flex-col gap-5 glass-container !py-10 mb-20 sm:mb-0'
 >
    <Input label={"Albumin"} unit={"g/dL"} onChange={(e)=> setFormData({...formdata, Albumin: e.target.value})} />
    <Input  label={"Creatinine"} unit={"mg/dL"} onChange={(e)=> setFormData({...formdata, Creatinine: e.target.value})} />
