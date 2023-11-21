@@ -193,3 +193,7 @@ input[type="number"]::-webkit-outer-spin-button {
 .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
   border: 2.5px solid darkgray !important;
 }
+.MuiFormHelperText-root {
+  margin-left: 2px !important;
+  font-size: 0.69rem !important;
+}
